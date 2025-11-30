@@ -32,7 +32,7 @@ def evaluate_guess(guess, word):  #we return green/yellow or grey letters
 
 
 def wordle(guesses, answers):
-    print("Welcome to Wordle! Get 5 chances to guess a 5 letter word.")
+    print("Welcome to Wordle! Get 6 chances to guess a 5 letter word.")
     secret_word = random.choice(answers)
     attempts = 1
     max_attempts = 6
