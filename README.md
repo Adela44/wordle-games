@@ -1,7 +1,7 @@
 
-# 🐍 Python Wordle Games
+# Python Word Games
 
-A collection of Wordle-inspired games that run in your terminal.
+A collection of wordle-inspired games that run in your terminal.
 
 ## 🎮 The Games
 
