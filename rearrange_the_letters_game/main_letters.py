@@ -44,7 +44,12 @@ ok = False
 # multiple guesses allowed
 while not time_up_event.is_set():
     try:
-        word = input_queue.get_nowait()
+        raw_input = input_queue.get_nowait() #remove the extra spaces and make the word lowercase
+        word = raw_input.strip().lower()
+        if not word.isalpha() or len(word) != 5:
+            print("Please write a five letter word and press enter.")
+            continue # allow for the user to correct themselves
+
         if word == secret_word:
             ok = True
             break
