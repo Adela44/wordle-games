@@ -4,6 +4,14 @@ import queue
 import time
 import os
 
+"""
+checklist of what to improve:
+   - file not found error -> try/except around load_dictionary
+   - missing feedback if the user's input is incorrect (the program just loops silently)
+   - better feedback and instructions or other output messages 
+   - complete the documentation
+"""
+
 #each line contains one word
 def load_dictionary(file_path):
     with open(file_path) as f:
