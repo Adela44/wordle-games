@@ -14,9 +14,13 @@ checklist of what to improve:
 
 #each line contains one word
 def load_dictionary(file_path):
-    with open(file_path) as f:
-        words = [line.strip() for line in f]
-    return words
+    try:
+        with open(file_path) as f:
+            words = [line.strip() for line in f]
+        return words
+    except FileNotFoundError:
+        print("File not found")
+        exit()
 
 def shuffle_word(word):
     char_list = list(word)
@@ -37,7 +41,7 @@ def timer(seconds):
     print("\nTime's up!")
 
 
-words = load_dictionary("5_letter_words.txt")
+words = load_dictionary("5_letter_words_.txt")
 secret_word = random.choice(words)
 
 print("The shuffled word is: ", shuffle_word(secret_word))
