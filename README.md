@@ -3,33 +3,16 @@
 
 A collection of wordle-inspired games that run in your terminal.
 
-## 🎮 The Games
+## The Games
 
 1.  **Classic Wordle**: Guess the 5-letter English word.
 2.  **Guess the Fruit**: Guess the name of the fruit (various lengths).
-3.  **Rearrange The Letters**: Form the correct word
+3.  **Unscramble 5**: Restore the correct order of a shuffled 5-letter word.
 
-## 📸 Gameplay Example
+## Gameplay Example
 Here is what the "Guess the Fruit" mode looks like:
 
 ![Gameplay Screenshot](gameplay.png)
-
-## 🚀 How to Play
-
-Make sure you have Python installed. Open your terminal in the project folder and run these commands:
-
-### To play Classic Wordle:
-```bash
-cd classic_wordle
-python main_wordle.py
-````
-
-### To play Guess the Fruit:
-
-```bash
-cd guess_the_fruit
-python main_fruit.py
-```
 
 ## 📝 Rules & Colors
 
