@@ -8,6 +8,7 @@ A collection of wordle-inspired games that run in your terminal.
 1.  **Classic Wordle**: Guess the 5-letter English word.
 2.  **Guess the Fruit**: Guess the name of the fruit (various lengths).
 3.  **Unscramble 5**: Restore the correct order of a shuffled 5-letter word.
+4.  **Anagram Finder**: Find valid anagrams of a given word (multiple correct answers possible)
 
 ## Gameplay Example
 Here is what the "Guess the Fruit" mode looks like:
